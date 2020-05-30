@@ -5,7 +5,6 @@ import bs4
 import re
 import datetime as datetime
 
-import lxml.etree as xml
 from requests import get
 from bs4 import BeautifulSoup
 from flask import Flask,request,jsonify
